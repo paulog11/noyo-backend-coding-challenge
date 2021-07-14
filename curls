@@ -1,0 +1,21 @@
+curl -X PUT \
+  http://localhost:3000/api/persons/806cfd07-4d9f-46d9-8f47-30aa6a23aac3/address \
+  -H "Content-Type: application/json" \
+  -d '{
+    "start_date": "2021-01-01",
+    "street_one": "123 Main Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip_code": "94613"
+  }'
+
+  curl -X PUT \
+  http://localhost:3000/api/persons/806cfd07-4d9f-46d9-8f47-30aa6a23aac3/address \
+  -H "Content-Type: application/json" \
+  -d '{
+    "start_date": "2021-06-15",
+    "street_one": "1 California Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip_code": "94111"
+  }'
